@@ -12,15 +12,15 @@ import requests
 PREFIX = "*"
 TOKEN = ""
 # Embed images (optional)
-PLANS_IMAGE_URL =""
-LOGO_URL =""
+PLANS_IMAGE_URL ="https://postimg.cc/cvPJQwrw"
+LOGO_URL ="https://postimg.cc/R6zZ1kL1"
 
 # Pterodactyl panel
 PANEL_URL = "http://103.194.228.138/"
-PANEL_API_KEY =
+PANEL_API_KEY = "ptla_dKi5JYB14l8lq9dnfsixO7GHjkIo2wvUcv2iah6IXcL"
 # Defaults for new servers
 DEFAULT_NODE = "1"
-DEFAULT_ALLOCATION_ID = 1
+DEFAULT_ALLOCATION_ID = "1"
 
 # Map numeric menu to (nest_id, egg_id, docker_image, startup)
 # NOTE: Replace egg IDs/startups with your panel's actual values.
