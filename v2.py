@@ -515,4 +515,5 @@ async def screenshot_cmd(ctx: commands.Context, *, image_url: str):
         pass
     await ctx.reply(embed=embed)
 
- bot.run(TOKEN)
+# -------------- RUN --------------
+bot.run(TOKEN)
