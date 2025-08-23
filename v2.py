@@ -3,7 +3,6 @@ import json
 import time
 from dataclasses import dataclass
 from typing import Optional, Tuple
-
 import discord
 from discord.ext import commands
 import requests
