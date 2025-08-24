@@ -85,10 +85,10 @@ def save_admins(ids: set):
 
 # Simple plan tiers (invite → limits)
 TIERS = [
-    {"name": "Basic",    "at": 0,  "ram": 4096,  "cpu": 150, "disk": 10000},
-    {"name": "Advanced", "at": 4,  "ram": 6144,  "cpu": 200, "disk": 15000},
-    {"name": "Pro",      "at": 6,  "ram": 7168,  "cpu": 230, "disk": 20000},
-    {"name": "Premium",  "at": 8,  "ram": 9216,  "cpu": 270, "disk": 25000},
+    {"name": "Basic",    "at": 3,  "ram": 4096,  "cpu": 150, "disk": 10000},
+    {"name": "Advanced", "at": 7,  "ram": 6144,  "cpu": 200, "disk": 15000},
+    {"name": "Pro",      "at": 12,  "ram": 7168,  "cpu": 230, "disk": 20000},
+    {"name": "Premium",  "at": 10,  "ram": 9216,  "cpu": 270, "disk": 25000},
     {"name": "Elite",    "at": 15, "ram": 12288, "cpu": 320, "disk": 30000},
     {"name": "Ultimate", "at": 20, "ram": 16384, "cpu": 400, "disk": 35000},
 ]
